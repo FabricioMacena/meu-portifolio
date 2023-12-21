@@ -112,6 +112,7 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     background-color: #13678A;
+    padding: 10px 0;
     align-items: center;
     display: none;
 }
@@ -294,6 +295,14 @@ footer{
     hr{
         margin: 40px 0;
     }
+    
+    #profilePic:hover{
+        border: none;
+    }
+
+    #btns button:hover{
+        border: none;
+    }
 }
 
 @media screen and (max-width:580px){
@@ -302,7 +311,7 @@ footer{
     }
 
     #btns button{
-        font-size: 13px;
+        font-size: 12px;
     }
     
     main{
@@ -323,7 +332,8 @@ footer{
     #btns button{
         line-height: normal;
         height: 100%;
-        padding: 10px 0;
-        border-radius: 10px;
+        padding: 7px 0;
+        border-radius: 5px;
+        width: 25%;
     }
 }
